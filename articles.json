@@ -1,0 +1,118 @@
+{
+    "articles": [
+      {
+        "id": 1,
+        "category": "Poisson & Viande",
+        "name": "Filet de saumon",
+        "description": "Saumon frais prêt pour la cuisson",
+        "price": 12.99,
+        "image": "/images/salmon.png"
+      },
+      {
+        "id": 2,
+        "category": "Poisson & Viande",
+        "name": "Aile de poulet",
+        "description": "Avec un os, pour un gout plus prononcé",
+        "price": 8.99,
+        "image": "/images/chicken.png"
+      },
+      {
+        "id": 3,
+        "category": "Légumes",
+        "name": "Brocoli",
+        "description": "Brocoli frais, prêt pour la cuisson",
+        "price": 2.99,
+        "image": "/images/broccoli.png"
+      },
+      {
+        "id": 4,
+        "category": "Légumes",
+        "name": "Carottes",
+        "description": "Carottes biologiques, idéales pour les salades ou les collations.",
+        "price": 1.99,
+        "image": "/images/carrots.png"
+      },
+      {
+        "id": 5,
+        "category": "Médicaments",
+        "name": "Antidouleur",
+        "description": "Comprimés antidouleur efficaces.",
+        "price": 9.99,
+        "image": "/images/pain-reliever.png"
+      },
+      {
+        "id": 6,
+        "category": "Médicaments",
+        "name": "Vitamines",
+        "description": "Comprimés multivitaminés pour un soutien quotidien de la santé.",
+        "price": 14.99,
+        "image": "/images/vitamins.png"
+      },
+      {
+        "id": 7,
+        "category": "Bébé",
+        "name": "Couches pour bébé",
+        "description": "Couches douces et absorbantes pour les nourrissons.",
+        "price": 19.99,
+        "image": "/images/baby-diapers.png"
+      },
+      {
+        "id": 8,
+        "category": "Bébé",
+        "name": "Lingettes pour bébé",
+        "description": "Lingettes douces pour une peau propre et fraîche.",
+        "price": 5.99,
+        "image": "/images/baby-wipes.png"
+      },
+      {
+        "id": 9,
+        "category": "Bureau",
+        "name": "Cahiers",
+        "description": "Cahiers de haute qualité pour une utilisation au bureau ou à l'école.",
+        "price": 3.99,
+        "image": "/images/notebooks.png"
+      },
+      {
+        "id": 10,
+        "category": "Bureau",
+        "name": "Stylos",
+        "description": "Ensemble de stylos à bille de qualité supérieure pour une écriture fluide.",
+        "price": 7.99,
+        "image": "/images/pens.png"
+      },
+      {
+        "id": 11,
+        "category": "Beauté",
+        "name": "Nettoyant pour le visage",
+        "description": "Nettoyant facial doux pour les soins quotidiens de la peau.",
+        "price": 11.99,
+        "image": "/images/facial-cleanser.png"
+      },
+      {
+        "id": 12,
+        "category": "Beauté",
+        "name": "Lotion hydratante",
+        "description": "Lotion hydratante pour une peau douce et lisse.",
+        "price": 14.99,
+        "image": "/images/moisturizing-lotion.png"
+      },
+      {
+        "id": 13,
+        "category": "Jardinage",
+        "name": "Graines de fleurs",
+        "description": "Assortiment de graines de fleurs pour un beau jardin.",
+        "price": 6.99,
+        "image": "/images/flower-seeds.png"
+      },
+      {
+        "id": 14,
+        "category": "Jardinage",
+        "name": "Gants de jardinage",
+        "description": "Gants durables pour un jardinage confortable.",
+        "price": 8.99,
+        "image": "/images/gardening-gloves.png"
+      }
+    ]
+  }
+
+  

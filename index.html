@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/fav-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Magasin Local</title>
+  </head>
+  <body>
+    <!--==Navigation================================-->
+    <nav class="navigation">
+      <!--logo-------->
+      <a href="index.html" class="logo"> Magasin <span>local</span> </a>
+      <!--menu-btn---->
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="nav-icon"></span>
+      </label>
+      <!--menu-------->
+      <ul class="menu">
+        <li><a href="index.html" class="active">Menu</a></li>
+        <li><a href="#category">Categories</a></li>
+        <li><a href="#article-list">Article</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!--nav-end--------------------->
+    <!--==Search-banner=======================================-->
+    <section id="search-banner">
+      <!--bg--------->
+      <img src="\images/bg-1.png" class="bg-1" alt="bg" />
+      <img src="\images/bg-2.png" class="bg-2" alt="bg-2" />
+      <!--text------->
+      <div class="search-banner-text">
+        <h1>Des produits frait toutes l'année</h1>
+        <strong>#Livraison gratuite</strong>
+        <!--search-box------>
+        <form id="search-form" action="" class="search-box">
+          <!--icon------>
+          <i class="fas fa-search"></i>
+          <!--input----->
+          <input
+            type="text"
+            class="search-input"
+            placeholder="Chercher un article"
+            name="search"
+          />
+          <!--btn------->
+          <input type="submit" class="search-btn" value="rechercher" />
+        </form>
+      </div>
+    </section>
+    <!--search-banner-end--------------->
+    <!--==category=========================================-->
+    <section id="category">
+      <!--heading---------------->
+      <div class="category-heading">
+        <h2>Catégorie</h2>
+        <span>All</span>
+      </div>
+      <!--box-container---------->
+      <div class="category-container">
+        <a href="#" class="category-box">
+          <img src="/images/all.png" alt="All" />
+          <span>Tous</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="/images/fish.png" alt="Poisson" />
+          <span>Poisson & Viande</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="/images/Vegetables.png" alt="Légumes" />
+          <span>Légumes</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="/images/medicine.png" alt="Médicaments" />
+          <span>Médicaments</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="/images/baby.png" alt="Bébé" />
+          <span>Bébé</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="/images/office.png" alt="Bureau" />
+          <span>Bureau</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="/images/beauty.png" alt="Beauté" />
+          <span>Beauté</span>
+        </a>
+        <!--box---------------->
+        <a href="#" class="category-box">
+          <img src="/images/Gardening.png" alt="Jardinage" />
+          <span>Jardinage</span>
+        </a>
+      </div>
+    </section>
+    <!--category-end----------------------------------->
+    <!-- Ajoutez cette section après la section #category -->
+    <section id="article-list">
+      <!-- heading -->
+      <div class="category-heading">
+        <h2>Articles</h2>
+        <span id="selected-category">All</span>
+      </div>
+      <!-- liste des articles -->
+      <div class="article-container" id="article-container">
+        <!-- Articles seront ajoutés ici via JavaScript -->
+      </div>
+    </section>
+    <section id="category">
+      <!--heading---------------->
+      <div class="category-heading">
+        <h2>Contactez-nous</h2>
+      </div>
+
+          <!--affichage des informatons de contact centré et bien présenté ---------------->
+          <section id="contact">
+            <div class="contact-container">
+              <div class="contact-heading">
+                <p>N'hésitez pas à nous contacter pour toute question ou demande d'information.</p>
+              </div>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <h3>Téléphone</h3>
+                  <p>+1 234 567 8901</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <h3>Email</h3>
+                  <p>contact@magasinlocal.com</p>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <h3>Adresse</h3>
+                  <p>123 Rue Principale, Ville, Pays</p>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2780.61842315639!2d1.266711931621504!3d45.81889983491709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f933617de8c327%3A0x8d14320ada5f9041!2sGroupe%203iL!5e0!3m2!1sfr!2sfr!4v1700192158743!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                
+              </div>
+            </div>
+          </section>
+
+      </div>
+    </section>
+    <!--==Footer=============================================-->
+    <footer>
+      <div class="footer-container">
+        <!--logo-container------>
+        <div class="footer-logo">
+          <a href="#">Magasin <span>local</span></a>
+          <!--social----->
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Product</strong>
+          <ul>
+            <li><a href="#">Clothes</a></li>
+            <li><a href="#">Packages</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">New</a></li>
+          </ul>
+        </div>
+        <!--links------------------------->
+        <div class="footer-links">
+          <strong>Category</strong>
+          <ul>
+            <li><a href="#">Beauty</a></li>
+            <li><a href="#">Meats</a></li>
+            <li><a href="#">Kids</a></li>
+            <li><a href="#">Clothes</a></li>
+          </ul>
+        </div>
+        <!--links-------------------------->
+        <div class="footer-links">
+          <strong>Contact</strong>
+          <ul>
+            <li><a href="#">Phone : +123456789</a></li>
+            <li><a href="#">Email : Example@gmail.com</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+
+  <!--==JavaScript=======================================-->
+  <script src="script.js"></script>
+
+</html>
